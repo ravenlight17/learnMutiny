@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body,
+html {
+  background-color: #242424;
+}
+
 header {
   display: flex;
   border: 2px solid green;
@@ -20,11 +25,28 @@ nav {
 }
 
 .main-navlist {
-  display: inline-block;
+  display: flex;
   border: 2px dashed yellow;
+  justify-content: right;
 }
 
 .nav-list {
   display: inline-block;
-  align-items: flex-end;
+  list-style: none;
+}
+
+.linkWhite,
+a:link {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+}
+
+.linkBlack {
+  color: #000000;
+}
+
+.navBtn {
+  height: 40px;
+  border-radius: 10px;
 }
