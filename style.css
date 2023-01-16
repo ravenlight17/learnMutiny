@@ -46,8 +46,45 @@ a:link {
 }
 
 .navBtn {
-  font-family: ;
+  /* font-family: ; */
   height: 40px;
   border-radius: 10px;
   color: #000000;
+}
+
+/* main container border */
+main {
+  border: 2px solid blue;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.secOne {
+  border: 4px dashed coral;
+  display: flex;
+  flex-direction: column;
+}
+
+.introDesc {
+  color: #e0e0e0;
+}
+
+.title {
+  border: 4px solid darkorchid;
+  color: #e0e0e0;
+}
+
+.inptBtn {
+  width: 276.2px;
+  height: 69.6px;
+
+  background: #000000;
+  border-radius: 10.4px;
+}
+
+#imgHolder {
+  /* background-image: url(img/BearTransparent.png); */
+  border: 5px solid teal;
 }
