@@ -7,11 +7,12 @@
 body,
 html {
   background-color: #242424;
+  overflow-y: hidden;
 }
 
 header {
   display: flex;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100%;
   height: 55px;
 }
@@ -19,15 +20,18 @@ header {
 .logo,
 nav {
   display: inline-block;
-  border: 5px solid red;
+  /* border: 5px solid red; */
   width: 50%;
   height: 55px;
 }
 
 .main-navlist {
   display: flex;
-  border: 2px dashed yellow;
+  /* border: 2px dashed yellow; */
   justify-content: right;
+  padding-top: 25px;
+  padding-right: 20px;
+  gap: 63.04px;
 }
 
 .nav-list {
@@ -40,7 +44,7 @@ nav {
 a:link {
   text-decoration: none;
   color: white;
-  padding: 15px;
+  /* padding: 15px; */
   font-family: 'Manrope';
 }
 
@@ -53,7 +57,7 @@ a:link {
 
 /* main container border */
 main {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -61,19 +65,57 @@ main {
 }
 
 .secOne {
-  border: 4px dashed coral;
+  /* border: 4px dashed coral; */
   display: flex;
   flex-direction: column;
   font-family: 'Inter';
+  justify-content: center;
 }
 
 .introDesc {
   color: #e0e0e0;
 }
 
+.inputPBox {
+  /* width: 741px;
+  height: 419.9px; */
+  /* border: 4px solid indianred; */
+
+  margin-bottom: 120px;
+}
+
 .title {
-  border: 4px solid darkorchid;
+  /* border: 4px solid darkorchid; */
   color: #e0e0e0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 104px;
+  line-height: 110%;
+  margin-bottom: 120px;
+}
+
+.userInputBox {
+  /* border: 4px solid silver; */
+  width: 676px;
+  height: 94.9px;
+  background: #ffffff;
+  box-shadow: 0px 5.2px 5.2px rgba(0, 0, 0, 0.05);
+  border-radius: 10.4px;
+  padding: 8px 10.4px 10.4px 31.2px;
+}
+
+.inputBox {
+  width: 312px;
+  height: 28px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.4px;
+  line-height: 28px;
+
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .inptBtn {
@@ -82,9 +124,25 @@ main {
   color: #e0e0e0;
   background: #000000;
   border-radius: 10.4px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23.4px;
+  line-height: 28px;
+}
+
+.introDesc {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31.2px;
+  line-height: 160%;
+  color: #e0e0e0;
+  /* padding */
 }
 
 #imgHolder {
   /* background-image: url(img/BearTransparent.png); */
-  border: 5px solid teal;
+  /* border: 5px solid teal; */
 }
