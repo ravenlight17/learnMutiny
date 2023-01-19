@@ -147,7 +147,7 @@ main {
   /* border: 5px solid teal; */
 }
 
-/* Overlay */
+/* Overlay Start */
 
 .hidden {
   display: none;
@@ -186,3 +186,5 @@ main {
   width: 45px;
   font-size: 2rem;
 }
+
+/* Overlay End */
