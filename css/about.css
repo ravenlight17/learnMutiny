@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 1728px;
+  height: 1117px;
+
+  background: #242424;
+}
+
+.main-navlist {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 63.04px;
+
+  position: absolute;
+  width: 428.09px;
+  height: 30px;
+  left: 909px;
+  top: 88px;
+}
