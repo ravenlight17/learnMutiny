@@ -45,7 +45,7 @@ a:link {
   text-decoration: none;
   color: white;
   /* padding: 15px; */
-  font-family: 'Manrope';
+  font-family: "Manrope";
 }
 
 .navBtn {
@@ -68,7 +68,7 @@ main {
   /* border: 4px dashed coral; */
   display: flex;
   flex-direction: column;
-  font-family: 'Inter';
+  font-family: "Inter";
   justify-content: center;
 }
 
@@ -87,7 +87,7 @@ main {
 .title {
   /* border: 4px solid darkorchid; */
   color: #e0e0e0;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 104px;
@@ -109,7 +109,7 @@ main {
   width: 312px;
   height: 28px;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 23.4px;
@@ -125,7 +125,7 @@ main {
   background: #000000;
   border-radius: 10.4px;
 
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 800;
   font-size: 23.4px;
@@ -133,16 +133,11 @@ main {
 }
 
 .introDesc {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 31.2px;
   line-height: 160%;
   color: #e0e0e0;
   /* padding */
-}
-
-#imgHolder {
-  /* background-image: url(img/BearTransparent.png); */
-  /* border: 5px solid teal; */
 }
